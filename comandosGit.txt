@@ -8,4 +8,10 @@ git add . / adiciona todos os arquivos
 git diff / mostra as mudanças ainda não comentadas
 git log  -1 mostra o histórico de comentários e pode selecionar quantos você quer
 ls lista os arquivos do diretório
-pwd mostra onde estou
+wd mostra onde estou
+yarn add react carrega biblioteca js
+touch .gitignore arquivo para ignorar os arquivos
+cat arquivoTeste.txt mostra o conteudo do arquivo
+git checkout 'colar id do log' para navegar no ponto da histótia selecionado e ver as alterações feitas naquele log
+git checkout master volta para o tempo atual
+git branch 'nome' para criar novas ramificações
