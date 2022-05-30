@@ -1,0 +1,11 @@
+touch arquivoTeste.txt / cria o arquivo
+vim arquivoTeste.txt / abre o arquivo para editar o conteudo
+Dentro do arquivo Esc :wq para sair
+git add arquivoTeste.txt adiciona o arquivo 
+git commit -m "Mensagem teste" / cria o comentário
+git status mostra o status dos arquivos
+git add . / adiciona todos os arquivos
+git diff / mostra as mudanças ainda não comentadas
+git log  -1 mostra o histórico de comentários e pode selecionar quantos você quer
+ls lista os arquivos do diretório
+pwd mostra onde estou
