@@ -3,6 +3,7 @@ vim arquivoTeste.txt / abre o arquivo para editar o conteudo
 Dentro do arquivo Esc :wq para sair
 git add arquivoTeste.txt adiciona o arquivo 
 git commit -m "Mensagem teste" / cria o comentário
+git commit -am "Mensagem teste" / cria o comentário e adiciona os arquivos
 git status mostra o status dos arquivos
 git add . / adiciona todos os arquivos
 git diff / mostra as mudanças ainda não comentadas
@@ -14,4 +15,9 @@ touch .gitignore arquivo para ignorar os arquivos
 cat arquivoTeste.txt mostra o conteudo do arquivo
 git checkout 'colar id do log' para navegar no ponto da histótia selecionado e ver as alterações feitas naquele log
 git checkout master volta para o tempo atual
-git branch 'nome' para criar novas ramificações
+git branch 'nomeBranch' para criar novas ramificações
+git merge 'nomeBranch' para colocar ela no repositório atual
+git branch -D 'nomeBranch' remove a branch
+git remote add origin 'url github' / para criar o ponto do Github
+git push origin master para atualizar os arquivos no Github
+
