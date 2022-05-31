@@ -19,5 +19,6 @@ git branch 'nomeBranch' para criar novas ramificações
 git merge 'nomeBranch' para colocar ela no repositório atual
 git branch -D 'nomeBranch' remove a branch
 git remote add origin 'url github' / para criar o ponto do Github
+git remote -v | mostra os caminhos e nomes
 git push origin master para atualizar os arquivos no Github
 code . | abre o vsm por dentro do git
